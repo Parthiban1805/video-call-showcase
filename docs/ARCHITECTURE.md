@@ -11,19 +11,19 @@ This diagram illustrates the overall structure of the application, including the
 ```mermaid
 graph TD
     subgraph "Client Side"
-        Client[React Client (Vite)]
-        Browser[Browser APIs (WebRTC, MediaDevices)]
+        Client["React Client (Vite)"]
+        Browser["Browser APIs (WebRTC, MediaDevices)"]
     end
 
     subgraph "Server Side (Node.js)"
-        API[Express API Server]
-        Socket[Socket.IO Server]
-        RoomMgr[Room Manager (In-Memory)]
-        SFU[Mediasoup Workers (SFU)]
+        API["Express API Server"]
+        Socket["Socket.IO Server"]
+        RoomMgr["Room Manager (In-Memory)"]
+        SFU["Mediasoup Workers (SFU)"]
     end
 
     subgraph "Data Persistence"
-        DB[(MongoDB)]
+        DB[("MongoDB")]
     end
 
     %% Connections
@@ -34,7 +34,7 @@ graph TD
     API -->|Auth & User Data| DB
     Socket -->|Manage State| RoomMgr
     RoomMgr -->|Control| SFU
-    API <-->|Rate Limiting| Memory[Memory Store / Redis]
+    API <-->|Rate Limiting| Memory["Memory Store / Redis"]
 
     %% Styles
     style Client fill:#f9f,stroke:#333,stroke-width:2px
