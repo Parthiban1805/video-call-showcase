@@ -27,14 +27,14 @@ graph TD
     end
 
     %% Connections
-    Client -->|HTTP REST API| API
-    Client -->|WebSocket (Signaling)| Socket
-    Client -->|WebRTC (RTP Media)| SFU
+    Client -->|"HTTP REST API"| API
+    Client -->|"WebSocket (Signaling)"| Socket
+    Client -->|"WebRTC (RTP Media)"| SFU
     
-    API -->|Auth & User Data| DB
-    Socket -->|Manage State| RoomMgr
-    RoomMgr -->|Control| SFU
-    API <-->|Rate Limiting| Memory["Memory Store / Redis"]
+    API -->|"Auth & User Data"| DB
+    Socket -->|"Manage State"| RoomMgr
+    RoomMgr -->|"Control"| SFU
+    API <-->|"Rate Limiting"| Memory["Memory Store / Redis"]
 
     %% Styles
     style Client fill:#f9f,stroke:#333,stroke-width:2px
