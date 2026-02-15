@@ -40,7 +40,7 @@ Select preferred camera, microphone, and speakers
 Choose whether to allow camera/microphone access temporarily or permanently
 
 3. Active Meeting Interface
-<img src="screenshots/active-meeting-interface.png" alt="Active Meeting Interface" width="100%">
+<img src="screenshots/active-meeting.png" alt="Active Meeting Interface" width="100%">
 The main meeting view features:
 
 Full-screen video display
@@ -59,7 +59,7 @@ Real-time participant indicators
 Meeting ID and duration tracking
 
 4. Meeting Activity Panel
-<img src="screenshots/meeting-activity-panel.png" alt="Meeting Activity Panel" width="100%">
+<img src="screenshots/meeting-activity.png" alt="Meeting Activity Panel" width="100%">
 Track all meeting events with:
 
 Export Logs (CSV): Download complete meeting activity
@@ -81,7 +81,7 @@ Notepad: Shared document for meeting notes and agendas
 All participants can contribute simultaneously
 
 6. Settings & Configuration
-<img src="screenshots/settings-configuration.png" alt="Settings & Configuration" width="100%">
+<img src="screenshots/settings.png" alt="Settings & Configuration" width="100%">
 Comprehensive in-meeting settings:
 
 Audio/Video Controls:
@@ -109,7 +109,7 @@ Toggle participants: Ctrl + Shift + P
 
 
 7. Screen Sharing in Action
-<img src="screenshots/screen-sharing-in-action.png" alt="Screen Sharing in Action" width="100%">
+<img src="screenshots/screen-sharing.png" alt="Screen Sharing in Action" width="100%">
 Advanced screen sharing capabilities:
 
 Share entire screen or specific windows
